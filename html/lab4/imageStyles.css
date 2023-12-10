@@ -1,0 +1,11 @@
+.image-parts {
+    display: grid;
+    grid-column-gap: 1px;
+    grid-row-gap: 1px;
+    grid-template-columns: repeat(5, 1fr); 
+}
+
+img {
+    width: 100%; 
+    height: auto; 
+}
